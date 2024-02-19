@@ -148,6 +148,7 @@ h4 {
 
 .container_Research{
 /* CENTER ITEMS */
+justify-content: center;
 }
 
 #Research .Research-card {
