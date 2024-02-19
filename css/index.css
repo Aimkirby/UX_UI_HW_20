@@ -1,0 +1,289 @@
+body {
+    font-family: 'Open Sans', sans-serif; 
+    background: rgb(246, 233, 255);
+}
+
+#hero {
+    background-image: url("../images/purfectpartners\ hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 80vh;
+    /* ADD DARKER COLOR OVERLAY */
+}
+
+.nav-link.active {
+    font-weight: 800;
+    text-decoration: underline;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color:rgb(246, 233, 255) !important;
+    white-space: nowrap;
+
+}
+
+.navbar-collapse {
+    flex-grow: unset;
+}
+.navbar-expand-lg .navbar-nav li {
+    padding:5%;
+}
+nav{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(26, 0, 68, 0.92);
+}
+
+nav .hamburger {
+    width:180px ;
+    text-align: right;
+}
+
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60%;
+    background-color: rgba(26, 0, 68, 0.50);
+
+}
+
+.jumbotron p {
+    text-align: center;
+    color: rgb(246, 233, 255);
+
+}
+
+.jumbotron h1 {
+    color: rgb(246, 233, 255);
+    font-weight: 800;
+
+}
+
+
+.jumbotron h1 span {
+  
+    font-weight: 300;
+
+}
+
+.jumbotron .my-4 {
+    background-color: rgb(246, 233, 255);
+}
+
+.Name_Left{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+
+/* BACKGROUND section */
+
+
+#Background {
+
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#Background h2 {
+ text-align:center;
+ font-size:300px;
+ margin-bottom:100px;
+ padding: 20px;
+ background-color: rgb(26, 0, 68);
+
+}
+
+
+#Background .Background-card {
+background-color: rgb(26, 0, 68);
+height:350px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:20px;
+}
+
+.Background-card .card-items {
+    margin-left:40px;
+    margin-right:60px;
+    color:rgb(246, 233, 255);
+
+}
+
+
+
+ h2 .Background_head {
+    color:rgb(246, 233, 255);
+    font-size: 60%;
+    display: block;
+    font-weight:normal;
+}
+h4 {
+    color:rgb(246, 233, 255);
+}
+
+
+
+/* RESEARCH SECTION */
+
+#Research {
+
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#Research h2 {
+ text-align:center;
+ font-size:300px;
+ margin-bottom:100px;
+ padding: 20px;
+ background-color: rgb(26, 0, 68);
+
+}
+
+.container_Research{
+/* CENTER ITEMS */
+}
+
+#Research .Research-card {
+background-color: rgb(26, 0, 68);
+height:350px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:20px;
+border-radius: 100%;
+}
+
+
+.Research-card .card-items {
+    margin-left:40px;
+    margin-right:60px;
+    color:rgb(246, 233, 255);
+
+}
+
+#Research .Takeaway-card {
+    background-color: rgb(26, 0, 68);
+    height:350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+    }
+
+    .Takeaway-card .card-items {
+        margin-left:40px;
+        margin-right:60px;
+        color:rgb(246, 233, 255);
+    
+    }
+    
+
+
+
+ h2 .Research_head {
+    color:rgb(246, 233, 255);
+    font-size: 60%;
+    display: block;
+    font-weight:normal;
+}
+
+/* WIREFRAME SECTION */
+
+#Wireframe {
+
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#Wireframe h2 {
+ text-align:center;
+ font-size:300px;
+ margin-bottom:100px;
+ padding: 20px;
+ background-color: rgb(26, 0, 68);
+
+}
+
+
+ h2 .Wireframe_head {
+    color:rgb(246, 233, 255);
+    font-size: 60%;
+    display: block;
+    font-weight:normal;
+}
+
+/* WIREFRAME SECTION */
+
+.btn {
+background-color: blueviolet;
+border-radius: 20PX;
+}
+
+/* PROTOTYPE SECTION */
+
+.container_Prototype{
+    background-color: rgb(52, 127, 196);
+    padding: 200px;
+}
+
+#Prototype {
+
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#Prototype h2 {
+ text-align:center;
+ font-size:300px;
+ margin-bottom:100px;
+ padding: 20px;
+ background-color: rgb(26, 0, 68);
+
+}
+
+
+ h2 .Prototype_head {
+    color:rgb(246, 233, 255);
+    font-size: 60%;
+    display: block;
+    font-weight:normal;
+}
+
+/* FOOTER SECTION */
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;padding:30px;
+    background-color: rgb(26, 0, 68) ;
+
+    
+    
+}
+
+
+footer ul li a {
+    color:white;
+    text-decoration:none;
+    
+}
+
+
+
+
+.back-top {
+
+    padding:30px;
+}
+
+.back-top  img {
+    transform: rotate(180deg);
+
+}
